@@ -8,7 +8,7 @@ import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
 import proj1 from "../../public/images/projects/clay-theme.png";
-import loading from "../../public/images/articles/GTA6-VICE.gif";
+import loading from "../../public/loading.gif";
 
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion, useMotionValue } from "framer-motion";
@@ -231,10 +231,10 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects | By NexTemp</title>
+        <title>Projects | Web3 Developer | Smart Contract Expert</title>
         <meta
           name="description"
-          content="NexTemp, A open-source portfolio theme built with Nextjs"
+          content="Experienced Blockchain Developer specializing in secure smart contracts, dApp development, and Web3 integration using Solidity, Foundry, and React.js. Building scalable decentralized solutions with clean code and modern UI."
         />
       </Head>
 
@@ -244,7 +244,7 @@ export default function Projects() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Transforms the World ✨"
+            text="Blockchain Powers New Possibilities ✨"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
@@ -257,7 +257,7 @@ export default function Projects() {
                 img={proj1}
                 date="2023"
                 link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                github="https://github.com/Razibul-Islam"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -268,7 +268,7 @@ export default function Projects() {
                 img={proj1}
                 date="2023"
                 link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                github="https://github.com/Razibul-Islam"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -279,7 +279,7 @@ export default function Projects() {
                 img={proj1}
                 date="2023"
                 link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                github="https://github.com/Razibul-Islam"
               />
             </div>
           </div>
@@ -291,7 +291,7 @@ export default function Projects() {
                 img={loading}
                 time="1 min read"
                 date=""
-                link="https://github.com/lilxyzz/"
+                link="https://github.com/Razibul-Islam"
               />
             </ul>
 

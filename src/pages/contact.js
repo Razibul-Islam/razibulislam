@@ -48,10 +48,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>NexTemp Built with Nextjs</title>
+        <title>Contact | Web3 Developer | Smart Contract Expert</title>
         <meta
           name="description"
-          content="NexTemp, A open-source portfolio theme built with Nextjs"
+          content="Experienced Blockchain Developer specializing in secure smart contracts, dApp development, and Web3 integration using Solidity, Foundry, and React.js. Building scalable decentralized solutions with clean code and modern UI."
         />
       </Head>
 

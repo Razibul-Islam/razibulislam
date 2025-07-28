@@ -58,21 +58,21 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Developer"
-            company="Stellar Innovations"
-            time="2020 - 2024"
-            address="200 Innovations st"
-            companyLink="https://github.com/lilxyzz/clay-theme"
-            work="At Stellar Innovations, I serve as a web developer, where I play a crucial role in designing and implementing cutting-edge web solutions. My responsibilities include developing responsive and high-performance websites and applications using technologies such as HTML, CSS, JavaScript, React, and Node.js. I collaborate closely with cross-functional teams to ensure our projects meet the highest standards of functionality and user experience. One of my key achievements at Stellar Innovations has been leading the development of a comprehensive e-commerce platform that significantly enhanced our client's online presence and sales. My work is driven by a passion for continuous learning and innovation, always striving to push the boundaries of what's possible in web development."
+            position="Front-End Developer"
+            company="Self Employed"
+            time="2021 - 2024"
+            address="Remote"
+            companyLink="https://github.com/Razibul-Islam"
+            work="During this period, I worked independently on a variety of web projects, focusing on building clean, responsive, and performant user interfaces. I specialized in React.js, Next.js, and Tailwind CSS, delivering modern web applications for startups, small businesses, and personal ventures. I handled everything from UI/UX design implementation to component-based architecture, state management, and API integrations. My work emphasized clean code, mobile-first design, and SEO-friendly development practices. This phase not only strengthened my technical skills but also taught me how to manage clients, meet deadlines, and ship production-ready solutions — laying a strong foundation for my transition into Web3 development."
           />
 
           <Details
-            position="Rad Tester"
-            company="Vault Technologies"
-            time="2018 - 2020"
-            address="404 Tech st"
-            companyLink="https://github.com/lilxyzz/holo-theme"
-            work="At Vault Technologies, I worked as a RAD (Rapid Application Development) Tester, where I was responsible for ensuring the quality and functionality of our software applications during the development process. My role involved designing and executing test plans, identifying and documenting bugs, and working closely with developers to resolve issues quickly. This position required a deep understanding of the software development lifecycle and a keen eye for detail to ensure our applications met the highest standards of performance and reliability. My contributions at Vault Technologies helped streamline our development processes and significantly improved the overall quality of our software products."
+            position="Full-stack Web3 Developer"
+            company="Self Employed"
+            time="2024 - Present"
+            address="Remote"
+            companyLink="https://github.com/Razibul-Islam"
+            work="As a full-stack Web3 developer, I specialize in building decentralized applications (dApps) and smart contracts. My expertise includes Solidity for smart contract development, Foundry and Hardhat for testing and deployment, and React.js with Next.js for the frontend. I focus on creating secure, efficient, and user-friendly blockchain solutions, ensuring seamless integration with various blockchain networks. My work involves everything from designing smart contract architectures to implementing robust frontend interfaces, making complex blockchain technology accessible and practical for users."
           />
         </ul>
       </div>

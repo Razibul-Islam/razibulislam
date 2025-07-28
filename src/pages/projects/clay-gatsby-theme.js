@@ -6,7 +6,7 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
 import { useEffect, useRef } from "react";
 import AnimatedText from "@/components/AnimatedText";
 import TransitionEffect from "@/components/TransitionEffect";
-import { GithubIcon } from "@/components/Icons";
+import { GithubIcon, LinkedInIcon } from "@/components/Icons";
 import { DevIcon } from "@/components/Icons";
 
 import proj1 from "/public/images/projects/clay-theme.png";
@@ -39,10 +39,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <link
-          rel="canonical"
-          href="https://travislord.xyz/projects/clay-gatsby-theme"
-        ></link>
+        <link rel="canonical" href="https://github.com/Razibul-Islam"></link>
         <title>
           Clay Theme | Unlocking The Power Of Gatsby V5+ | By Travis Lord
         </title>
@@ -104,13 +101,13 @@ export default function About() {
             dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
             md:p-2 md:px-4 md:text-base"
                   aria-label="Visit Theme Demo"
-                  href="https://clay-theme.netlify.app"
+                  href="https://github.com/Razibul-Islam"
                   target={"_blank"}
                 >
                   Visit Demo
                 </Link>
                 <Link
-                  href="https://github.com/lilxyzz/clay-theme"
+                  href="https://github.com/Razibul-Islam"
                   target={"_blank"}
                   className="w-10"
                   aria-label="github link"
@@ -118,12 +115,12 @@ export default function About() {
                   <GithubIcon />
                 </Link>
                 <Link
-                  href="https://dev.to/lilxyzz/clay-theme-unlocking-the-power-of-gatsby-v5-and-netlifycms-with-clay-theme-njn"
+                  href="https://www.linkedin.com/in/razibulislam014/"
                   target={"_blank"}
                   className="w-10"
-                  aria-label="github link"
+                  aria-label="Linkedin link"
                 >
-                  <DevIcon />
+                  <LinkedInIcon />
                 </Link>
               </div>
             </div>

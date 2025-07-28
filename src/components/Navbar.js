@@ -9,6 +9,7 @@ import {
   LinkedInIcon,
   MoonIcon,
   SunIcon,
+  TwitterIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
 import { useThemeSwitch } from "./Hooks/useThemeSwitch";
@@ -111,6 +112,7 @@ const Navbar = () => {
           <CustomLink className="mx-4" href="/about" title="About" />
           <CustomLink className="mx-4" href="/projects" title="Projects" />
           <CustomLink className="ml-4" href="/articles" title="Articles" />
+          <CustomLink className="ml-4" href="/contact" title="Contact" />
         </nav>
         <nav
           className="flex items-center justify-center flex-wrap lg:mt-2
@@ -119,7 +121,7 @@ const Navbar = () => {
           <motion.a
             target={"_blank"}
             className="w-7 mr-3"
-            href="https://github.com/lilxyzz"
+            href="https://github.com/Razibul-Islam"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Checkout my GitHub profile"
@@ -130,23 +132,23 @@ const Navbar = () => {
           <motion.a
             target={"_blank"}
             className="w-7 mx-3 bg-light rounded-full"
-            href="https://medium.com/@travis.lord"
+            href="https://www.linkedin.com/in/razibulislam014/"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Checkout my Medium profile"
           >
-            <MediumIcon />
+            <LinkedInIcon />
           </motion.a>
 
           <motion.a
             target={"_blank"}
             className="w-7 mx-3"
-            href="https://dev.to/lilxyzz"
+            href="https://x.com/RazibulIslamRaj"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Checkout my Dev.to profile"
           >
-            <DevIcon />
+            <TwitterIcon />
           </motion.a>
 
           <motion.a
@@ -275,7 +277,7 @@ const Navbar = () => {
         </motion.div>
       ) : null}
 
-      <div className="absolute left-[50%] top-2 translate-x-[-50%] ">
+      <div className="absolute left-[50%] top-8 lg:top-5 translate-x-[-50%] ">
         <Logo />
       </div>
     </header>
